@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.chat-card {
+    height: 70%;
+    overflow: auto;
+}
+  
+.input-card {
+    height: 30%;
+    /* Additional styling for input card */
+}
+
+.message-list-container {
+    height: 100%;
+    width: 95%;
+}
+
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+filter: drop-shadow(0 0 2em #61dafbaa);
+}
+  
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+  
+
+
+
+/* 
+
+.cs-message__content { 
+    background-color: rgba(232,221,217, 0.95) !important;
+    font-family: "Urbanist", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 0.9em !important;
+    margin-top: 0.8em !important;
+
+}
+
+
+.cs-message--outgoing .cs-message__content {
+    background-color: rgba(75,52,37, 0.9) !important;
+    color: white !important;
+    font-family: "Urbanist", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 0.9em !important;
+}
+
+.cs-main-container, .chat-container, .cs-chat-container {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0px !important;
+}
+
+
+.cs-message-list {
+    height: 90% !important;
+    width: 90% !important;
+    margin: 30px;
+
+    border-radius: 40px !important;
+    color: #eee;
+    background: rgba(255, 255, 255, 0.901) !important;
+    backdrop-filter: blur(4px) !important;
+    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.cs-message-list__scroll-wrapper {
+    padding: 1em 2em 0 2em !important;
+}
+
+
+.cs-message-input {
+    height: 10% !important;
+    width: 90% !important;
+    margin: 30px;
+    border-radius: 30px !important;
+    color: #eee;
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(4px) !important;
+    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5) !important;
+    border: 0px !important;
+}
+
+.cs-message-input__content-editor-wrapper {
+    font-family: "Urbanist", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    padding: 2em 2em !important;
+    margin: 10px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0px !important;
+}
+
+.cs-message-input__tools {
+    display: none !important;
+}
+ */

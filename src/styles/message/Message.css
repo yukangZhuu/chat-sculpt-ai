@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bot-message {
+    display: inline-block; /* Adjusts width to content */
+    max-width: 70%; /* Optional, for better readability */
+
+    background-color: rgba(232,221,217, 0.85);
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0.9em;
+
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;;
+
+    padding: 0em 1em; /* Smaller top and bottom padding */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.bot-message:hover {
+    transform: scale(1.06); /* Slightly increases the size */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
+    background-color: rgba(232,221,217, 1);
+}
+
+.user-message {
+    margin-left: auto; /* Pushes message to the right */
+    display: inline-block; /* Adjusts width to content */
+    max-width: 70%; /* Optional, for better readability */
+
+    background-color: rgba(75,52,37, 0.85);
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0.9em;
+    padding: 0em 1em; /* Smaller top and bottom padding */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.user-message:hover {
+    transform: scale(1.06); /* Slightly increases the size */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Adds shadow */
+    background-color: rgba(75,52,37, 0.9);
+}

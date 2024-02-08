@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 60%;
+  
+    font-size: 15px;
+    font-family: 'Lora', serif;
+
+    margin-top: 40px;
+
+  }
