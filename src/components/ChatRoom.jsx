@@ -97,9 +97,11 @@ function ChatRoom() {
           ))}
         </div>
       </Card>
-      <Card className="input-card">
+      
+      <div className="message-input-container">
         <MessageInput onSend={handleSend} />
-      </Card>
+      </div>
+      
     </>
 
   )

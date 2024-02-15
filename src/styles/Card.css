@@ -10,5 +10,11 @@
     margin: 20px;
     
 
-    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5)
+    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; 
+}
+
+
+.card:hover {
+    transform: scale(1.03); /* Slightly increases the size */
 }

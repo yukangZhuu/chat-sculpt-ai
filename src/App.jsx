@@ -5,13 +5,25 @@ import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className="app-container">
-      <div className="sidebar-container">
-        <SideBar />
+    <div className='app-container'>
+
+      <div className='header'>
+        <p>AI can make mistakes. Consider checking important information. © 2023.  Powered by React.js</p>
       </div>
-      <div className="chat-room-container">
-        <ChatRoom />
+
+      <div className="main-container">
+        <div className="sidebar-container">
+          <SideBar />
+        </div>
+        <div className="chat-room-container">
+          <ChatRoom />
+        </div>
       </div>
+
+      <div className='footer'>
+        <p>AI can make mistakes. Consider checking important information. © 2023.  Powered by React.js</p>
+      </div>
+      
     </div>
   );
 }

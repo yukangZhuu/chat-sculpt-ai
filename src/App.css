@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
 .app-container {
   display: flex;
   height: 100vh;
-  width: 100vw; /* Ensure it takes the full viewport width */
+  width: 100vw; /* Ensure it takes the full viewport width */  
+  flex-direction: column;
+}
+
+
+.main-container {
+  display: flex;
+  height: 87%;
+  width: 100%; /* Ensure it takes the full viewport width */
   align-items: center;
   justify-content: space-around;
   background-color: rgb(155, 176, 104);
@@ -9,7 +19,7 @@
 
 .sidebar-container {
   /* Set a fixed width or flex-basis for the sidebar as per your design */
-  width: 30%; /* Example: 250px width for the sidebar */
+  width: 35%; /* Example: 250px width for the sidebar */
 }
 
 /* Ensure ChatRoom takes the remaining space */
@@ -20,8 +30,33 @@
   justify-content: space-around;
 
   height: 90%; 
-  width: 55%;
+  width: 50%;
   background-color: rgba(255, 255, 255, 0);
 }
 
+.header {
+  display: flex;
+  height: 10%;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  line-height: 60%;
 
+  font-size: 14px;
+  font-family: 'Lora', serif;
+}
+
+
+.footer {
+  display: flex;
+  height: 3%;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  line-height: 60%;
+
+  font-size: 14px;
+  font-family: 'Lora', serif;
+}
