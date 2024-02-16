@@ -19,6 +19,7 @@ const MessageInput = ({ onSend }) => {
           type="text"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          placeholder='Got something to say?'
         />
       </div>
 

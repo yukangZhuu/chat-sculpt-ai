@@ -68,9 +68,16 @@ function ChatRoom() {
       <Card className="chat-card">
         <div className="message-list-container">
           {messages.map((message, i) => (
-            message.sender === 'user' ? 
-            <div style={{textAlign: "right"}}><UserMessage key={i} text={message.message} /></div> : 
-            <div><BotMessage key={i} text={message.message} /></div>
+            <div 
+              className={`message-animation-container ${i === messages.length - 1 ? 'message-rise-animation' : ''}`} 
+              key={i}
+            >
+              {message.sender === 'user' ? 
+                <div style={{textAlign: "right"}}><UserMessage text={message.message} /></div> 
+                : 
+                <div><BotMessage text={message.message} /></div>
+              }
+            </div>
           ))}
           <div ref={messagesEndRef} />
         </div>

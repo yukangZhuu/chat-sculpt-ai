@@ -45,3 +45,19 @@ background: #f9c4d2;
 }
 
 
+/* Animation for rising message */
+.message-rise-animation {
+    animation: riseFromBottom 0.5s ease;
+}
+  
+/* Keyframes for rising from bottom */
+@keyframes riseFromBottom {
+0% {
+    opacity: 0;
+    transform: translateY(30px); /* Adjust as needed */
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
