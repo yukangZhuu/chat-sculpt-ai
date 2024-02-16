@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import '../styles/Header.css'
 
 
-export default function Header() {
+export default function Header({ onHelpClick, onSignInClick }) {
     return (
         <div className='header'>
           <div className='title'>
@@ -18,9 +18,9 @@ export default function Header() {
           </div>
           
           <div className='menu'>
-            <span>Help</span>
-            <span>Contact Me</span>
-            <span>Sign In</span>
+            <button onClick={onHelpClick}>Help</button>
+            <button>Contact Me</button>
+            <button onClick={onSignInClick}>Sign In</button>
           </div>
 
         </div>

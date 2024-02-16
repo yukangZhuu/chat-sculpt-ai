@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for dimming effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* High z-index to ensure it's above other content */
+}
+  
+.modal-container {
+    width: 500px; /* Example width */
+    height: 500px;
+    padding: 20px;
+    border-radius: 23px;
+
+    background-color: white; /* Ensure it stands out against the overlay */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    z-index: 1001; /* Ensure the modal is above the overlay */
+
+    animation: riseFromBottom 0.5s ease;
+}
+
+/* Keyframes for rising from bottom */
+@keyframes riseFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px); /* Adjust as needed */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.help-content {
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.help-content h2 {
+    text-align: left;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.help-content p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.help-content button {
+    margin-top: 5%;
+    background-color: white;
+    transition: transform 0.3s ease; 
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.help-content button:hover {
+    transform: scale(1.05); /* Slightly increases the size */
+}

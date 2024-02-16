@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
 
+.blur-background {
+  filter: blur(3px); /* Adjust the pixel value as needed */
+}
+
 .app-container {
   display: flex;
   height: 100vh;

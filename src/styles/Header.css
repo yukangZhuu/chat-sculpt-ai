@@ -9,7 +9,7 @@
 }
 
 .title {
-    width: 37%;
+    width: 500px;
 
     display: flex;
     justify-content: center;
@@ -25,8 +25,8 @@
 }
 
 .menu {
-    width: 30%;
-    margin-top: 2%;
+    width: 450px;
+    margin-top: 1.5%;
 }
 
 .menu{
@@ -36,6 +36,16 @@
     font-family: "Urbanist", sans-serif;
     font-size: 23px;
     font-weight: 500;
+}
+
+.menu button {
+    background-color: white;
+    transition: transform 0.3s ease; 
+    border-radius: 15px;
+}
+
+.menu button:hover {
+    transform: scale(1.05); /* Slightly increases the size */
 }
 
 
