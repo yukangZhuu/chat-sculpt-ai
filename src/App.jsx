@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='app-container'>
 
-      <div className='header'>
+      <div className='header-container'>
         <p>AI can make mistakes. Consider checking important information. © 2023.  Powered by React.js</p>
       </div>
 
@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div className='footer'>
-        <p>AI can make mistakes. Consider checking important information. © 2023.  Powered by React.js</p>
+        <p>AI can make mistakes. Consider checking important information. © 2024.  Made by Yukang</p>
       </div>
       
     </div>
