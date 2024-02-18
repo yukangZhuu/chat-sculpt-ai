@@ -5,16 +5,14 @@
     justify-content: center;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin: 20px;
     
-
-    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease; 
+    /* Include box-shadow in the transition property */
+    transition: transform 0.3s ease, box-shadow 0.5s ease; 
 }
 
-
 .card:hover {
+    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
     transform: scale(1.03); /* Slightly increases the size */
 }

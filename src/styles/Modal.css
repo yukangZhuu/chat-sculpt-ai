@@ -68,3 +68,11 @@
 .help-content button:hover {
     transform: scale(1.05); /* Slightly increases the size */
 }
+
+.help-content input {
+    border-radius: 10px;
+    font-weight: 5400;
+    font-size: 18px;
+    padding: 10px 80px 10px 10px;
+    margin-bottom: 20px;
+}

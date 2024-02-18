@@ -23,8 +23,14 @@ export function SignInModal({ onClose }) {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-container" onClick={e => e.stopPropagation()}>
-        {/* Sign in modal contents */}
-        <button onClick={onClose}>Close</button>
+        <div className='help-content'>
+            <h2>Login & Signup are coming soon!</h2>
+            <p>Backend is still under development right now.</p>
+            <p>Try this app free from login or type in your own GPT API key below!</p>
+            <input placeholder='API key here..'></input>
+            <p><strong>Enjoy sculpting your chat today!</strong></p>
+            <button onClick={onClose}>Let's go</button>
+        </div>
       </div>
     </div>
   );

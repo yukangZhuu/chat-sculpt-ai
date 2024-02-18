@@ -2,6 +2,15 @@ import { useState, useEffect, useRef } from 'react'
 import '../styles/Header.css'
 
 
+function handleContactClick() {
+  const emailAddress = "zhuyukang2000@gmail.com"; // Replace with your desired email address
+  const emailSubject = encodeURIComponent("[From: ChatSculpt.AI]");
+  const emailBody = encodeURIComponent("Hi Yukang,\n\n..."); // Email body content
+
+  const mailtoLink = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
+  window.location.href = mailtoLink;
+}
+
 export default function Header({ onHelpClick, onSignInClick }) {
     return (
         <div className='header'>
@@ -19,7 +28,7 @@ export default function Header({ onHelpClick, onSignInClick }) {
           
           <div className='menu'>
             <button onClick={onHelpClick}>Help</button>
-            <button>Contact Me</button>
+            <button onClick={handleContactClick}>Contact Me</button>
             <button onClick={onSignInClick}>Sign In</button>
           </div>
 

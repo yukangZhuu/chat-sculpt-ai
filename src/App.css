@@ -9,21 +9,25 @@
   height: 100vh;
   width: 100vw; /* Ensure it takes the full viewport width */  
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(155, 176, 104);
 }
 
 
 .main-container {
   display: flex;
   height: 87%;
-  width: 100%; /* Ensure it takes the full viewport width */
+  width: 95%; /* Ensure it takes the full viewport width */
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(155, 176, 104);
+  
 }
 
-.sidebar-container {
+.configs-container {
   /* Set a fixed width or flex-basis for the sidebar as per your design */
   width: 35%; /* Example: 250px width for the sidebar */
+  height: 80%;
 }
 
 /* Ensure ChatRoom takes the remaining space */
@@ -40,6 +44,7 @@
 
 .header-container {
   display: flex;
+  width: 100%;
   height: 10%;
   background-color: white;
   color: black;
@@ -55,6 +60,7 @@
 .footer {
   display: flex;
   height: 3%;
+  width: 100%;
   background-color: white;
   color: black;
   justify-content: center;

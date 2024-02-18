@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
 import ChatRoom from './components/ChatRoom';
-import SideBar from './components/SideBar';
 import Header from './components/Header';
 
 import { HelpModal, SignInModal } from './components/Modal';
+import Configs from './components/Configs';
 
 function App() {
 
@@ -29,8 +29,8 @@ function App() {
       </div>
 
       <div className={`main-container ${isModalOpen ? 'blur-background' : ''}`}>
-        <div className="sidebar-container">
-          <SideBar />
+        <div className="configs-container">
+          <Configs />
         </div>
         <div className="chat-room-container">
           <ChatRoom />

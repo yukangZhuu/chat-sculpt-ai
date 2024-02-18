@@ -1,0 +1,47 @@
+.configs-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* Include box-shadow in the transition property */
+    transition: transform 0.3s ease, box-shadow 0.5s ease; 
+}
+
+.configs-card:hover {
+    box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03); /* Slightly increases the size */
+}
+
+.configs-slider {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.configs-slider .configs-slide {
+    width: 50px;
+    height: 10px;
+    background-color: rgba(232,221,217, 0.85); /* Default background color */
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: background-color 0.3s ease; /* Transition for color change */
+}
+
+/* Change background color when the radio button is checked */
+#configs_slide_1:checked ~ .configs-slider .configs-slide:nth-of-type(1),
+#configs_slide_2:checked ~ .configs-slider .configs-slide:nth-of-type(2),
+#configs_slide_3:checked ~ .configs-slider .configs-slide:nth-of-type(3),
+#configs_slide_4:checked ~ .configs-slider .configs-slide:nth-of-type(4) {
+    background-color: #fcbfcf; /* Black color for selected slide */
+    transform: scaleX(1);
+}
