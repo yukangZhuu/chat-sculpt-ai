@@ -5,13 +5,13 @@
     justify-content: center;
     background-color: white;
     border-radius: 25px;
-    padding: 10px;
-    margin: 20px;
     position: relative;
     width: 100%;
     height: 100%;
     /* Include box-shadow in the transition property */
     transition: transform 0.3s ease, box-shadow 0.5s ease; 
+
+    border: 5px solid black;
 }
 
 .configs-card:hover {
@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
+
+    
 }
 
 .configs-slider .configs-slide {
@@ -35,6 +37,8 @@
     cursor: pointer;
     margin: 0 3px;
     transition: background-color 0.3s ease; /* Transition for color change */
+
+    border: 3px solid black;
 }
 
 /* Change background color when the radio button is checked */
@@ -42,6 +46,8 @@
 #configs_slide_2:checked ~ .configs-slider .configs-slide:nth-of-type(2),
 #configs_slide_3:checked ~ .configs-slider .configs-slide:nth-of-type(3),
 #configs_slide_4:checked ~ .configs-slider .configs-slide:nth-of-type(4) {
-    background-color: #fcbfcf; /* Black color for selected slide */
+    background-color: #000000; /* Black color for selected slide */
     transform: scaleX(1);
 }
+
+

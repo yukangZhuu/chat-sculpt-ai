@@ -9,6 +9,7 @@
     font-size: 18px;
     font-weight: 600;
     border-radius: 0.9em;
+    border: 3px solid;
 
     margin-top: 0.8em;
     margin-bottom: 0.8em;;
@@ -36,6 +37,7 @@
     font-weight: 600;
     border-radius: 0.9em;
     padding: 0em 1em; /* Smaller top and bottom padding */
+    border: 3px solid black;
 
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
 

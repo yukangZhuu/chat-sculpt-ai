@@ -3,6 +3,7 @@
 .chat-card {
     height: 80%;
     overflow: auto;
+    border: 3px;
 }
   
 .message-input-container {

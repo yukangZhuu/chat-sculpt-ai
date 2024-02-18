@@ -42,6 +42,8 @@
 .help-content {
     text-align: center;
     font-family: "Urbanist", sans-serif;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .help-content h2 {

@@ -18,14 +18,14 @@
 
 .title span {
     font-family: "Urbanist", sans-serif;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 800;
     margin-left: 8%;
     margin-bottom: 3%;
 }
 
 .menu {
-    width: 450px;
+    width: 600px;
     margin-top: 1.5%;
 }
 
@@ -42,6 +42,8 @@
     background-color: white;
     transition: transform 0.3s ease; 
     border-radius: 15px;
+
+    border: 3px solid black;
 }
 
 .menu button:hover {

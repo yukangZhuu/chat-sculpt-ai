@@ -9,7 +9,7 @@ export function HelpModal({ onClose }) {
         <div className='help-content'>
             <h2>Welcome to ChatSculpt.AI!</h2>
             <p>Discover the art of conversation with ChatSculpt.AI, where you personalize your AI chat companion.</p>
-            <p>Choose traits, set preferences, and shape the personality of your bot for a unique chatting experience.</p>
+            <p>Choose traits, set preferences, and shape the persona of your bot for a unique chatting experience.</p>
             <p>Whether for learning, advice, or fun, your AI companion is ready to adapt.</p>
             <p><strong>Start sculpting your chat today!</strong></p>
             <button onClick={onClose}>Close</button>

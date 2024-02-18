@@ -8,6 +8,7 @@
     padding: 10px;
     margin: 20px;
     
+    border: 5px solid;
     /* Include box-shadow in the transition property */
     transition: transform 0.3s ease, box-shadow 0.5s ease; 
 }
