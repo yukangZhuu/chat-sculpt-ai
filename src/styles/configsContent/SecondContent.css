@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;800&display=swap');
+
+.second-configs-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+.second-configs-content .second-configs-title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.second-configs-content .second-configs-form {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.second-configs-content .second-configs-form input,
+.second-configs-content .second-configs-form select {
+    width: 50%; /* Adjust width as needed */
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+.second-configs-content .second-configs-form label {
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.second-configs-content .second-configs-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.second-configs-content .second-configs-buttons button {
+    background-color: white;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+    border: 3px solid black;
+    padding: 10px 20px;
+}
+
+.second-configs-content .second-configs-buttons button:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.second-configs-content .second-configs-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.second-configs-content .second-configs-image-container .second-configs-image{
+    width: 20%;
+}

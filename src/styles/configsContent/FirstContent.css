@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
 
-.configs-content {
+.first-configs-content {
     display: flex;
     flex-direction: column;
 
@@ -8,14 +8,14 @@
     font-family: "Urbanist", sans-serif;
 }
 
-.configs-content .configs-title {
+.first-configs-content .first-configs-title {
     text-align: center;
     font-weight: 800;
     font-size: 28px;
     margin-top: -10px;
 }
 
-.configs-content .configs-text {
+.first-configs-content .first-configs-text {
     text-align: left;
     font-weight: 500;
     font-size: 20px;
@@ -23,23 +23,23 @@
     padding-right: 28px;
 }
 
-.configs-content .configs-start-button {
+.first-configs-content .first-configs-start-button {
     background-color: white;
     transition: transform 0.3s ease;
     border-radius: 10px;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 22px;
     cursor: pointer; /* To change mouse cursor on hover */
 
-    margin-top: 15px;
+    margin-top: 0px;
     border: 3px solid black;
 }
 
-.configs-content .configs-start-button:hover {
+.first-configs-content .first-configs-start-button:hover {
     transform: scale(1.05); /* Slightly enlarges the button on hover */
 }
 
-.configs-content .configs-image {
+.first-configs-content .first-configs-image {
     text-align: center;
     width: 25%;
     
